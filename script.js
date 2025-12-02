@@ -1,6 +1,7 @@
 function firstNonRepeatedChar(str) {
- // Write your code herefor (let i = 0; i < str.length; i++) {
-    const char = str[i];
+ // Write your code herefor 
+	for(let i = 0; i < str.length; i++) {
+    let char = str[i];
 
     if (str.indexOf(char) === str.lastIndexOf(char)) {
       return char;
